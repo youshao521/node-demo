@@ -7,7 +7,6 @@ router.get('/api/demo1', function(req, res, next) {
 });
 
 router.post('/api/demo2', function(req, res, next) {
-  console.log(66666);
   console.log(req.body);
   res.send({test: 'success'})
 });
